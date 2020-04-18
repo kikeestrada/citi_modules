@@ -1,0 +1,10 @@
+block link-section 
+	- let sidebar = { 'Home': './','Class 1': 'class1.html','Class 2': 'class2.html' ,'Class 3': 'class3.html','Class 4': 'class4.html' ,'Class 5': 'class5.html' ,'Class 6': 'class6.html' ,'Class 7': 'class7.html' ,'Class 8': 'class8.html'};
+
+aside(itemscope="itemscope" itemtype="http://schema.org/WPSideBar" role="complementary").ed-item.l-25
+	.vertical-menu-toggle.to-l#vertical-menu-toggle(data-content="Filtros")
+	nav(itemscope itemtype="http://schema.org/WPSideBar").vertical-menu#vertical-menu 
+		ul
+			each val, key in sidebar 
+				li(itemprop="url")
+					a(href=val itemprop="name" title= "Enlace de " + key)= key

@@ -1,0 +1,21 @@
+extends ../config/template
+append config
+	-currentPage		= "class5"
+	-siteName			= 'Class 5'
+	-content			= 'content'
+	-pageDescription	= 'Content of the XXXX Course'
+block main-header
+	+banner(
+		"https://images.pexels.com/photos/265614/pexels-photo-265614.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
+		'Course Name',
+		'Description',
+		false,
+		false
+	)
+block main-container
+	.ed-container.main-section
+		include ../includes/side-menu
+		main(itemscope itemprop="mainContentOfPage" role="main").ed-item.l-75.main-main
+			include:markdown-it(html) ../md/class5/class5.md
+block main-footer
+block scripts

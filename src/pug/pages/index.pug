@@ -3,45 +3,22 @@ append config
 	-currentPage		= "home"
 	-siteName			= 'Layouts'
 	-content			= 'content'
-	-pageDescription	= 'Pagina inicial de MyBoilerplate'
+	-pageDescription	= 'Content of the XXXX Course'
 block main-header
 	+banner(
 		"https://images.pexels.com/photos/265614/pexels-photo-265614.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb",
-		'Home',
+		'Course Name',
 		'Description',
-		true,
-		''
+		false,
+		false
 	)
 block main-container
-	include ../components/json-data
-	include ../components/ed-items
-	include ../components/rwd-images
-	include ../components/tables
-	include ../components/img-gallery
-	//include ../components/cards
-	//include ../components/play-list
-	//include ../components/foro
-	//include ../components/method-payment
-	//include ../components/colores
-	//include ../components/pricing-table
-	//include ../components/video
-	//include ../components/listas
-	//include ../components/forms
-	//include ../components/landing-page
-	//include ../components/course
-	//include ../components/cronograma
-	//include ../components/expositores
-	//include ../components/components
-	//include ../components/markdown
-	include ../components/tabs
-	include ../components/modal
-
+	.ed-container.main-section
+		include ../includes/side-menu
+		main(itemscope itemprop="mainContentOfPage" role="main").ed-item.l-75.main-main
+			h1 Description
 block main-footer
 block scripts
-	script.
-		document.getElementById('modal-button').addEventListener('click', () => {
-			edModal(`<h2>Bienvenidos a EDui</h2>`)
-		})
 
 
 
