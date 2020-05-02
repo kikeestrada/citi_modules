@@ -1,75 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://kikeestrada.website/clase1.html</loc>
-        <lastmod>2020-04-18T02:30:57.878Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class1.html</loc>
+        <lastmod>2020-05-02T22:38:28.837Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/clase2.html</loc>
-        <lastmod>2020-04-18T02:30:58.332Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class2.html</loc>
+        <lastmod>2020-05-02T22:38:29.387Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/class1.html</loc>
-        <lastmod>2020-04-18T17:52:28.988Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class3.html</loc>
+        <lastmod>2020-05-02T22:38:29.729Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/class2.html</loc>
-        <lastmod>2020-04-18T17:52:29.290Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class4.html</loc>
+        <lastmod>2020-05-02T22:38:29.732Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/class3.html</loc>
-        <lastmod>2020-04-18T17:52:29.674Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class5.html</loc>
+        <lastmod>2020-05-02T22:38:29.735Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/class4.html</loc>
-        <lastmod>2020-04-18T17:52:30.312Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class6.html</loc>
+        <lastmod>2020-05-02T22:38:29.737Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/class5.html</loc>
-        <lastmod>2020-04-18T17:52:30.314Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class7.html</loc>
+        <lastmod>2020-05-02T22:38:29.740Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/class6.html</loc>
-        <lastmod>2020-04-18T17:52:30.318Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/class8.html</loc>
+        <lastmod>2020-05-02T22:38:29.743Z</lastmod>
     </url>
     <url>
-        <loc>https://kikeestrada.website/class7.html</loc>
-        <lastmod>2020-04-18T17:52:30.320Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/class8.html</loc>
-        <lastmod>2020-04-18T17:52:30.324Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/</loc>
-        <lastmod>2020-04-18T17:52:30.327Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/item1-1.html</loc>
-        <lastmod>2020-04-18T02:31:00.162Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/item1-2.html</loc>
-        <lastmod>2020-04-18T02:31:00.242Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/clase1/item1-1.html</loc>
-        <lastmod>2020-04-18T02:31:00.270Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/clase1/item1.html</loc>
-        <lastmod>2020-04-18T02:31:00.285Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/clase1/item2.html</loc>
-        <lastmod>2020-04-18T02:31:00.301Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/class2/item1.html</loc>
-        <lastmod>2020-04-18T02:31:00.321Z</lastmod>
-    </url>
-    <url>
-        <loc>https://kikeestrada.website/class2/item2.html</loc>
-        <lastmod>2020-04-18T02:31:00.336Z</lastmod>
+        <loc>https://kikeestrada.github.io/boilerplate-for-courses/</loc>
+        <lastmod>2020-05-02T22:38:29.746Z</lastmod>
     </url>
 </urlset>
