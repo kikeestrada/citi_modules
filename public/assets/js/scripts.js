@@ -1,49 +1,37 @@
 (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
 'use strict';
 
-var _searchFilter = require('./modules/searchFilter');
-
 var _verticalMenu = require('./modules/verticalMenu');
 
+var _swDetecter = require('./modules/swDetecter');
+
 (function () {
+	(0, _swDetecter.swDetecter)();
 	if (document.body.classList.contains('home')) {
 		// functions here
 	} else if (document.body.classList.contains('page2')) {
-		(0, _searchFilter.searchFilter)();
 		// functions here
 	} else if (document.body.classList.contains('page3')) {
 		// functions here
 	} else if (document.body.classList.contains('page4')) {
 		// functions here
-		btnMenu();
 	}
 })();
 
-},{"./modules/searchFilter":2,"./modules/verticalMenu":3}],2:[function(require,module,exports){
+},{"./modules/swDetecter":2,"./modules/verticalMenu":3}],2:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-var searchFilter = exports.searchFilter = function searchFilter() {
-	// get the input data
-	var fnFilter = function fnFilter(inputElement, selector, selectorContainer) {
-		inputElement.addEventListener('keyup', function (e) {
-			if (e.key === 'Escape') e.target.value = '';
-			fnCompareElements(e.target.value.toUpperCase(), selector, selectorContainer);
+var swDetecter = exports.swDetecter = function swDetecter() {
+	if ('serviceWorker' in navigator) {
+		navigator.serviceWorker.register('./sw.js').then(function (reg) {
+			return console.log('Registro de SW exitoso', reg);
+		}).catch(function (err) {
+			return console.warn('Error al tratar de registrar el sw', err);
 		});
-	};
-	var fnCompareElements = function fnCompareElements(filterText, selector, selectorContainer) {
-		var searchElements = document.querySelectorAll(selector);
-		var searchContainers = document.querySelectorAll(selectorContainer);
-		searchElements.forEach(function (el) {
-			el.textContent.toUpperCase().includes(filterText) ? el.style.display = 'block' : el.style.display = 'none';
-		});
-		searchContainers.forEach(function (el) {
-			el.textContent.toUpperCase().includes(filterText) ? el.style.display = 'block' : el.style.display = 'none';
-		});
-	};
-	fnFilter(document.getElementById('searchInput'), '.class-item__fragment', '.class-item');
+	}
 };
 
 },{}],3:[function(require,module,exports){

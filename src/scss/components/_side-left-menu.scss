@@ -7,7 +7,7 @@
     position: fixed;
     bottom: 1rem;
     right: 1rem;
-    z-index: var(--z-fixed);
+    z-index: 99999999; 
     transition: transform .3s, -webkit-transform .3s;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.3); 
     &::before, &::after{
@@ -16,7 +16,7 @@
       height: calc(var(--size) * 0.1);
       background: #FFF;
       position: absolute;
-      left: 50%;
+      left: 50%; 
       top: 50%;
       transform: translate(-50%, -50%);
       border-radius: calc(var(--size) * 0.05);
@@ -51,7 +51,6 @@
     height              : calc(100vh - 12rem);
     padding             : 0 1rem;
     width               : calc(100vw - 2rem);
-    right               : 7px;
     background          : #282d31;
     border              : none;   
     overflow-y          : auto;
@@ -62,7 +61,7 @@
     transition          : max-height .5s;
     &.show {
       max-height        : 1000px;
-      margin-bottom     : 1em;
+      margin-bottom     : 1em; 
     }
     .active::before {
       display           : none;

@@ -203,7 +203,7 @@ gulp.task('sitemap', () => {
 		read: false
 	})
 		.pipe(sitemap({
-			siteUrl: 'https://kikeestrada.website' // remplazar por tu dominio
+			siteUrl: 'https://kikeestrada.github.io/boilerplate-for-courses/' // remplazar por tu dominio
 		}))
 		.pipe(gulp.dest('./public'))
 });
