@@ -3,10 +3,6 @@
 const CACHE_NAME = 'v1_cache_boilerplate_for_courses',
 	urlsToCache = [
 		'./',
-		'https://fonts.googleapis.com/css?family=Raleway:400,700',
-		'https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPAA.woff2',
-		'https://use.fontawesome.com/releases/v5.0.7/css/all.css',
-		'https://use.fontawesome.com/releases/v5.0.6/webfonts/fa-brands-400.woff2',
 		'./assets/css/styles.css',
 		'./assets/js/scripts.js',
 		'./assets/img/icon_1024.png',
