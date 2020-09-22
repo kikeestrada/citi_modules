@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Simple scafolding for statics web projects",
 	"main": "gulpfile.babel.js",
-	"homepage": "https://kikeestrada.github.io/boilerplate-for-courses/",
+	"homepage": "https://kikeestrada.github.io/citi_modules/",
 	"scripts": {
 		"start": "gulp",
 		"pug": "gulp pug",
